@@ -15,8 +15,7 @@ This allows me to build and run automation workflows without any monthly costs.
    ```bash
    sudo apt update && sudo apt install docker.io -y
    
-3. **Run n8n in Docker**
-   ```bash
+3. **Run n8n in Docker**  
 docker run -it --rm \
   --name n8n \
   -p 5678:5678 \
