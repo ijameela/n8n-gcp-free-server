@@ -16,16 +16,16 @@ This allows me to build and run automation workflows without any monthly costs.
    sudo apt update && sudo apt install docker.io -y
    
 3. **Run n8n in Docker**
-```bash
+   ```bash
 docker run -it --rm \
   --name n8n \
   -p 5678:5678 \
   n8nio/n8n
-
+  
 4. **Configure Firewall**
 Open port `5678` in Google Cloud firewall rules.
 
-5. **Access n8n**
+6. **Access n8n**
    Open `http://<your-external-ip>:5678` in your browser.
    
 ## Outcome
@@ -35,4 +35,3 @@ Open port `5678` in Google Cloud firewall rules.
 ## Reference
 Based on:  
 [`Stop paying monthly n8n automation fees: Build your own free n8n server on Google Cloud`](https://drlee.io/stop-paying-monthly-n8n-automation-fees-build-your-own-free-n8n-server-on-google-clouds-free-84be73299220)
-
