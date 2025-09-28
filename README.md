@@ -16,11 +16,13 @@ This allows me to build and run automation workflows without any monthly costs.
    sudo apt update && sudo apt install docker.io -y
    
 3. **Run n8n in Docker**  
+```bash
 docker run -it --rm \
   --name n8n \
   -p 5678:5678 \
   n8nio/n8n
-  
+```
+
 4. **Configure Firewall**
 Open port `5678` in Google Cloud firewall rules.
 
